@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+            }
+            td{
+                width: 500px;;
+                height: 500px;
+                border-width:15px;
+                background-color:aqua;
+                border-style:groove;
+                border-color:blanchedalmond;
+                text-align: center;
+                font-size:15px;
+                font-weight: bold;
+            }
+            table{
+                border-spacing: 10px;
+            }
+            .pagination{
+                padding:4px;
+                width:2px;
+                height:2px;
+                background-color: blanchedalmond;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h2 style="color:white">Recipe Cards</h2></center>
+        <table>
+            <tr>
+                <td>
+                    <h2>SchezwanNoodles</h2>
+                    <img src="data:image/jpeg;base64,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" width="300px" height="150px">
+                    <details>
+                        <summary>Ingredients</summary>
+                        chicken,
+                        Yogurt,
+                        GingerGarlicPaste,
+                        RedChiliPowder,
+                        TurmericPowder,
+                        GaramMasala,
+                        Salt to taste,
+                        Butter,
+                        Onions,
+                        HeavyCream,
+                        CorianderPowder,
+                        CuminPowder,
+                    </details>
+                        <section><strong>Recipe:</strong></section>
+                        <div>
+                        In a bowl, mix yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala, and salt.
+                        Add chicken pieces and coat them well with the marinade.
+                        Cover and refrigerate for at least 1-2 hours, or overnight for better flavor.
+                        Heat butter and oil in a pan over medium heat.
+                        Add chopped onions and sauté until golden brown.
+                        Add ginger-garlic paste and sauté for a minute until the raw smell disappears.
+                        Add tomato puree, red chili powder, turmeric powder, garam masala, coriander powder, cumin powder, and salt.
+                        Add the marinated chicken and cook until it is browned and cooked through.
+                        Pour in heavy cream and mix well.
+                        Add honey or sugar for sweetness (optional).
+                        Simmer for 10-15 minutes until the flavors meld together.
+                        </div>
+                </td>
+                <td>
+                    <h2>MuttonNihari</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoOOkOsDt6WOg4sFNn7sRVG-Gxs9khGznaBw&usqp=CAU" width="300px" height="100px">
+                    <details>
+                        <summary>Ingredients</summary>
+                        chicken,
+                        Yogurt,
+                        GingerGarlicPaste,
+                        RedChiliPowder,
+                        TurmericPowder,
+                        GaramMasala,
+                        Salt to taste,
+                        Butter,
+                        Onions,
+                        HeavyCream,
+                        CorianderPowder,
+                        CuminPowder,
+                    </details>
+                    <section><strong>Recipe:</strong></section>
+                        <div>
+                        In a bowl, mix yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala, and salt.
+                        Add chicken pieces and coat them well with the marinade.
+                        Cover and refrigerate for at least 1-2 hours, or overnight for better flavor.
+                        Heat butter and oil in a pan over medium heat.
+                        Add chopped onions and sauté until golden brown.
+                        Add ginger-garlic paste and sauté for a minute until the raw smell disappears.
+                        Add tomato puree, red chili powder, turmeric powder, garam masala, coriander powder, cumin powder, and salt.
+                        Add the marinated chicken and cook until it is browned and cooked through.
+                        Pour in heavy cream and mix well.
+                        Add honey or sugar for sweetness (optional).
+                        Simmer for 10-15 minutes until the flavors meld together.
+                        </div>
+                </td>
+                <td>
+                    <h2>TundeKabab</h2>
+                    <img src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202211/tunday_kabab-sixteen_nine.jpg" width="300px" height="100px">
+                    <details>
+                        <summary>Ingredients</summary>
+                        chicken,
+                        Yogurt,
+                        GingerGarlicPaste,
+                        RedChiliPowder,
+                        TurmericPowder,
+                        GaramMasala,
+                        Salt to taste,
+                        Butter,
+                        Onions,
+                        HeavyCream,
+                        CorianderPowder,
+                        CuminPowder,
+                    </details>
+                    <section><strong>Recipe:</strong></section>
+                        <div>
+                        In a bowl, mix yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala, and salt.
+                        Add chicken pieces and coat them well with the marinade.
+                        Cover and refrigerate for at least 1-2 hours, or overnight for better flavor.
+                        Heat butter and oil in a pan over medium heat.
+                        Add chopped onions and sauté until golden brown.
+                        Add ginger-garlic paste and sauté for a minute until the raw smell disappears.
+                        Add tomato puree, red chili powder, turmeric powder, garam masala, coriander powder, cumin powder, and salt.
+                        Add the marinated chicken and cook until it is browned and cooked through.
+                        Pour in heavy cream and mix well.
+                        Add honey or sugar for sweetness (optional).
+                        Simmer for 10-15 minutes until the flavors meld together.
+                        </div>
+                </td>
+            </tr>
+        </table>
+        <center><button><a href="recipes.html">1</a></button>
+        <button><a href="./recipes2.html">2</a></button>
+        <button><a href="./recipes3.html">3</a></button>
+        </center>
+    </body>
+</html>

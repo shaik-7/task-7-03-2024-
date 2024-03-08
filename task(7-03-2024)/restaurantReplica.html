@@ -1,0 +1,325 @@
+<html>
+    <head>
+        <style>
+            nav{
+                width:100%;
+                height: 80px;
+            }
+            .Contact{
+                padding: 10px 10px;
+                position:absolute;
+                left:250px;
+                top: 20px;
+                font-size: 25px;
+            }
+            .Contact:hover{
+                background-color: grey;
+            }
+            .MyFood{
+                position:absolute;
+                left: 750px;
+                top: 30px;
+                font-size: 25px;
+            }
+            .mail{
+                position:absolute;
+                right:95px;
+                top: 28px;
+                font-size: 25px;
+            }
+            #pics1{
+                display:flex;
+                flex-direction:row;
+            }
+            table{
+                position:relative;
+                left: 280px;
+                top:10px;
+                border-spacing: 20px;
+            }
+            td{
+                width:250px;
+                height: 400px;
+            }
+            .sandwich{
+                background-image: url('https://www.w3schools.com/w3images/sandwich.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .steak{
+                background-image: url('https://www.w3schools.com/w3images/steak.jpg');
+                background-position: center;
+                background-size: cover;          
+            }
+            .cherries{
+                background-image: url('https://www.w3schools.com/w3images/cherries.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .pasta{
+                background-image: url('https://www.w3schools.com/w3images/wine.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .popsicle{
+                background-image: url('https://www.w3schools.com/w3images/popsicle.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .salmon{
+                background-image: url('https://www.w3schools.com/w3images/salmon.jpg');
+                background-position: center;
+                background-size: cover;          
+            }
+            .sandwich2{
+                background-image: url('https://www.w3schools.com/w3images/sandwich.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .french{
+                background-image: url('https://www.w3schools.com/w3images/croissant.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .lines{
+                position:relative;
+                bottom: 170px;
+                font-size: 25px;
+            }
+            .lines2{
+                font-size: 15px;
+                position:relative;
+                bottom: 530px;
+                margin-bottom: 5px;
+            }
+            table,#pics2{
+                position:relative;
+                bottom:700px;
+            }
+            table,.lines3{
+                position:relative;
+                bottom:875px;
+                font-size: 25px;
+            }
+            table,.lines4{
+                position:relative;
+                bottom:1230px;
+                font-size: 15px;
+            }
+            section,.pagination1{
+                background-color:black;
+                padding: 10px 10px;
+                color:white;
+                width:10px;
+            }
+            section,.pagination1:hover{
+                background-color: gray;
+                transition-duration:0.35ms;
+            }
+            .pagination2{
+                color:black;
+                padding:10px 10px;
+                border-collapse:collapse;
+                background-color: white;
+            }
+            .pagination2:hover{
+                background-color:black;
+                padding:10px 10px;
+                color:white;
+                border-collapse:collapse;
+                transition-duration: 0.35s;
+            }
+            .pagination1, .pagination2{
+                position:relative;
+                bottom: 1380px;
+                left: 750px;
+            }
+            h2{
+                position:relative;
+                bottom: 1350px;
+                left: 35px;
+            }
+            img{
+                position: relative;
+                bottom:1350px;
+                left: 355px;
+            }
+            #photoline1{
+                position:relative;
+                bottom: 1335px;
+                left: 670px;
+                font-size: 25px;
+            }
+            #photoline2{
+                position:relative;
+                bottom: 1315px;
+                left: 630px;
+                font-size: 18px;
+            }
+            #photoline3{
+                position:relative;
+                bottom: 1295px;
+                left: 80px;
+                font-size: 18px;   
+            }
+            #footerdiv{
+                display:inline-block;
+                width: 100px;
+                height: 100px;
+                position:relative;
+                top: 80px;
+                left: 300px;
+            }
+            p{
+                position:relative;
+                bottom:1350px;
+                left:30px;
+                width:200px;
+            }
+            #footerdiv2{
+                display:inline-block;
+                width: 120px;
+                height:100px;
+                position: relative;
+                left: 530px;
+                top:155px;
+            }
+            #footerdiv3{
+                display:inline-block;
+                width:150px;
+                height:100px;
+                position:relative;
+                left:650px;
+                top:35px;
+            }
+            .footerspan{
+                position:relative;
+                bottom:1410px;
+                left: 410px;
+                width: 50px;
+                height: 50px;
+            }
+            ul{
+                position:relative;
+                right: 350px;
+            }
+            #image2{
+                position:relative;
+                bottom: 40px;
+            }
+            #footerspan3{
+                padding:2px 2px;
+                background-color:grey;
+                border-spacing:2px;
+                position:relative;
+                bottom:1350px;
+                left: 225px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="Contact">
+                Contact us
+            </div>
+            <div class="MyFood">
+                My Food
+            </div>
+            <div class="mail">
+                Mail
+            </div>
+        </nav>
+        <table>
+            <tr>
+                <td class="sandwich">
+                </td>
+                <td class="steak"></td>
+                <td class="cherries"></td>
+                <td class="pasta"></td>
+            </tr>
+            <tr>
+                <td class="lines">The Perfect Sandwich, A Real NYC Classic</td>
+                 <td class="lines">Let Me Tell You About This Steak</td>
+                 <td class="lines">Cherries, interrupted</td>
+                 <td class="lines">Once Again, Robust Wine and Vegetable Pasta</td>
+            </tr>
+            <tr>
+                <td class="lines2">Just some random text, lorem ipsum text 
+                    praesent tincidunt ipsum lipsum.</td>
+                 <td class="lines2">Once again, some random text to lorem 
+                                         lorem lorem lorem ipsum text praesent 
+                                            tincidunt ipsum lipsum.</td>
+                 <td class="lines2">Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</td>
+                 <td class="lines2">Lorem ipsum text praesent tincidunt ipsum lipsum.</td>
+            </tr>
+            <tr id="pics2">
+                <td class="popsicle">
+                </td>
+                <td class="salmon"></td>
+                <td class="sandwich"></td>
+                <td class="french"></td>
+            </tr>
+            <tr>
+                <td class="lines3">All I Need Is a Popsicle</td>
+                 <td class="lines3">Salmon For Your Skin</td>
+                 <td class="lines3">The Perfect Sandwich, A Real Classic</td>
+                 <td class="lines3">Le French</td>
+            </tr>
+            <tr>
+                <td class="lines4">Just some random text, lorem ipsum text 
+                    praesent tincidunt ipsum lipsum.</td>
+                 <td class="lines4">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</td>
+                 <td class="lines4">Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</td>
+                 <td class="lines4">Lorem ipsum text praesent tincidunt ipsum lipsum.</td>
+            </tr>
+        </table>
+        <section class="pagination1" style="display: inline-block;">1</section> <section class="pagination2" style="display:inline-block">2</section> <section class="pagination2" style="display:inline-block">3</section> <section class="pagination2" style="display:inline-block">4</section>
+        <center><h2>Iam the Food Man</h2></center>
+        <img src="https://www.w3schools.com/w3images/chef.jpg">
+        <div id="photoline1"><strong>I am Who I Am!</strong></div>
+        <div id="photoline2"><light>With Passion For Real, Good Food</light></div>
+        <div id="photoline3"><pre>
+            Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris
+            I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, 
+            ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus 
+                              vitae, ultricies congue gravida diam non fringilla.</pre></div>
+        <footer>
+            <div id="footerdiv">
+                <h2>Footer</h2>
+                <p>Praesent tincidunt sed tellus ut rutrum.Sed vitae justo
+                   condimentum, porta lectus vitae, ultricies congue
+                   gravida diam non fringilla.</p>
+                <p>Powered by w3.css</p>
+            </div>
+            <div id="footerdiv2">
+                <center><h2>BlogPosts</h2></center>
+                <ul>
+                    <li>
+                        <img src="https://www.w3schools.com/w3images/workshop.jpg" height="50" width="50">
+                        <span class="footerspan ">Lorem</span>
+                        <span class="footerspan">Sed mattis nunc</span>
+                    </li>
+                    <hr>
+                    <li id="image2">
+                        <img src="https://www.w3schools.com/w3images/gondol.jpg" height="50" width="50">
+                        <span class="footerspan">Lorem</span>
+                        <span class="footerspan">Sed mattis nunc</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="footerdiv3">
+                <h2>Popular Tags</h2>
+                <ul>
+                <pre>
+                <span id="footerspan3">Travel</span> <span id="footerspan3">New York</span> <span id="footerspan3">Dinner</span> <span id="footerspan3">Salmon</span> <span id="footerspan3">France</span> <span id="footerspan3">Drinks</span>
+                </pre>
+                </ul>
+                <ul>
+                <pre>
+                <span id="footerspan3">Ideas</span> <span id="footerspan3">Flavors</span> <span id="footerspan3">Cuisine</span> <span id="footerspan3">Chicken</span> <span id="footerspan3">Dressing</span> <span id="footerspan3">Fried</span>
+                </pre>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
